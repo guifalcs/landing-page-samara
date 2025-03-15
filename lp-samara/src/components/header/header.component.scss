@@ -1,0 +1,35 @@
+@import '../../_variables.scss';
+
+:host {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: $begeClaro;
+  padding: 16px;
+  color: $verdeEscuro;
+  outline: auto;
+}
+
+nav {
+  width: 30%;
+}
+
+ul {
+  width: 100%;
+  font-weight: 700;
+  list-style-type: none;
+  display: flex;
+  gap: 3em;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+
+  li {
+    cursor: pointer;
+  }
+}
+
+img {
+  width: 250px;
+  height: auto;
+}
